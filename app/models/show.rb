@@ -25,7 +25,7 @@ class Show < ActiveRecord::Base
   
   # Returns the sum of all the ratings of all the tv shows
   def self.ratings_sum
-    
+    Show.
   end
   
   # Returns an array of all of the shows with a rating above 5

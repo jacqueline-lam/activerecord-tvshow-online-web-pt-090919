@@ -30,7 +30,7 @@ class Show < ActiveRecord::Base
   
   # Returns an array of all of the shows with a rating above 5
   def self.popular_shows
-    Show.where('rating ')
+    Show.where('rating > 2')
   end
   
   # Returns an array of all of the shows, listed in alphabetical order

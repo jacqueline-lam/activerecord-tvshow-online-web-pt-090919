@@ -35,6 +35,6 @@ class Show < ActiveRecord::Base
   end
   
   # Returns an array of all of the shows, listed in alphabetical order
-  # def self.shows_by_alphabetical_order
-  # end
+  def self.shows_by_alphabetical_order
+  end
 end

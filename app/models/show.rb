@@ -8,6 +8,6 @@ class Show < ActiveRecord::Base
   
   # Returns the tv show with the highest rating
   def self.most_popular_show
-    Show.
+    Show.find(self.highest_rating)
   end
 end

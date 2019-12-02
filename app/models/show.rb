@@ -14,6 +14,7 @@ class Show < ActiveRecord::Base
   
   # Returns the lowest rating of all the TV shows
   def self.lowest_rating
+    Show.minimum(:rating)
   end
   
   # Returns the tv show with the lowest rating
@@ -28,7 +29,7 @@ class Show < ActiveRecord::Base
   # def self.popular_shows
   # end
   
-  # 
+  # Returns an array of all of the shows, listed in alphabetical order
   # def self.shows_by_alphabetical_order
   # end
 end

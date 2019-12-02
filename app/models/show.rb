@@ -12,6 +12,7 @@ class Show < ActiveRecord::Base
     Show.find_by(rating: highest_rating)
   end
   
+  # Returns the lowest rating of all the TV shows
   def self.lowest_rating
   end
   

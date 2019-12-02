@@ -20,6 +20,7 @@ class Show < ActiveRecord::Base
   # def self.least_popular_show
   # end
   
+  # Returns the sum of all the ratings of all the tv shows
   # def self.ratings_sum
   # end
   

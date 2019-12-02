@@ -29,8 +29,8 @@ class Show < ActiveRecord::Base
   end
   
   # Returns an array of all of the shows with a rating above 5
-  # def self.popular_shows
-  # end
+  def self.popular_shows
+  end
   
   # Returns an array of all of the shows, listed in alphabetical order
   # def self.shows_by_alphabetical_order

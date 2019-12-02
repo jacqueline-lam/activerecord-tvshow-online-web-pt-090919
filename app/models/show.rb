@@ -35,7 +35,7 @@ class Show < ActiveRecord::Base
   
   # Returns an array of all of the shows, listed in alphabetical order
   def self.shows_by_alphabetical_order
-    Show.order(:name asec)
+    Show.order(:name :asec)
     binding.pry
   end
 end

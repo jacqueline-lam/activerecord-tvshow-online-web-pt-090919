@@ -11,4 +11,19 @@ class Show < ActiveRecord::Base
     highest_rating = self.highest_rating
     Show.find_by(rating: highest_rating)
   end
+  
+  def self.lowest_rating
+  end
+  
+  def self.least_popular_show
+  end
+  
+  def self.ratings_sum
+  end
+  
+  def self.popular_shows
+  end
+  
+  def self.shows_by_alphabetical_order
+  end
 end

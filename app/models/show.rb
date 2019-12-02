@@ -24,8 +24,9 @@ class Show < ActiveRecord::Base
   end
   
   # Returns the sum of all the ratings of all the tv shows
-  # def self.ratings_sum
-  # end
+  def self.ratings_sum
+    
+  end
   
   # Returns an array of all of the shows with a rating above 5
   # def self.popular_shows
